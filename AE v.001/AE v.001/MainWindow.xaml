@@ -1,12 +1,51 @@
-﻿<Window x:Class="AE_v._001.MainWindow"
+﻿<Window x:Class="MyVendingMachine.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AE_v._001"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="My Vending Machine" Height="600" Width="800"
+        FontFamily="Segoe UI">
 
-    </Grid>
+    <materialDesign:DialogHost>
+        <Grid Background="#FFF5F5F5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Зона отображения выбранного товара -->
+            <Grid Grid.Row="0" Margin="16">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Border BorderThickness="2" BorderBrush="#FFE91E63" CornerRadius="8" Margin="0 0 16 0">
+                    <Image Source="path/to/product/image.png" Height="300" Width="300" />
+                </Border>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <TextBlock Text="Товар" FontSize="32" FontWeight="Bold" Margin="0 0 0 16" />
+                    <TextBlock Text="Описание товара" FontSize="16" TextWrapping="Wrap" Margin="0 0 0 16" />
+                    <TextBlock Text="Цена: 5 грн" FontSize="24" FontWeight="Bold" />
+                    <Button>buy</Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- Зона кнопок выбора товара -->
+            <UniformGrid Columns="4" Rows="3" Margin="16" Grid.Row="1">
+                <Button Content="A1" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="A2" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="A3" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="A4" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="B1" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="B2" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="B3" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="B4" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="Кнопка 9" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="Кнопка 10" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="Кнопка 11" Style="{StaticResource MaterialDesignFlatButton}" />
+                <Button Content="Кнопка 12" Style="{StaticResource MaterialDesignFlatButton}" />
+            </UniformGrid>
+        </Grid>
+    </materialDesign:DialogHost>
 </Window>

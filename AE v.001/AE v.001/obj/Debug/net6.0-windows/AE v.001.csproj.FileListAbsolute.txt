@@ -1,0 +1,6 @@
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.csproj.AssemblyReference.cache
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001_MarkupCompile.cache
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001_MarkupCompile.lref
