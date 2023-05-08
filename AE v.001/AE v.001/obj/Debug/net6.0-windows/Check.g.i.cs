@@ -69,7 +69,7 @@ namespace AE_v._001 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AE v.001;V1.0.0.0;component/check.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AE v.001;component/check.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Check.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
