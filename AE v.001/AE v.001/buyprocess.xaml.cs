@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ZXing.Common;
+using ZXing;
 
 namespace AE_v._001
 {
@@ -23,6 +25,27 @@ namespace AE_v._001
         {
             InitializeComponent();
         }
+        private void GenerateQRCodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Создаем новый экземпляр кодировщика QR-кода
+            var writer = new BarcodeWriterPixelData()
+            {
+                Format = BarcodeFormat.QR_CODE,
+                Options = new EncodingOptions
+                {
+                    Height = (int)qrCodeImage.Height,
+                    Width = (int)qrCodeImage.Width
+                }
+            };
+
+            // Генерируем пиксельные данные QR-кода для заданного текста
+            var pixelData = writer.Write(QRCodeText.Text);
+
+            // Преобразуем пиксельные данные в изображение и отображаем его в элементе управления Image
+            var bitmapSource = BitmapSource.Create(pixelData.Width, pixelData.Height, 96, 96, PixelFormats.Bgr32, null, pixelData.Pixels, pixelData.Width * 4);
+            qrCodeImage.BarcodeImage = bitmapSource;
+        }
+
         public abstract class OrderState
         {
             public abstract void AddProduct(Order order, Product product);

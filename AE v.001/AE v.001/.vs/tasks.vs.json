@@ -5,6 +5,11 @@
       "taskLabel": "задача-AE v",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "задача-AE v",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

@@ -53,7 +53,7 @@ namespace AE_v._001 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AE v.001;component/buyprocess.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AE v.001;V1.0.0.0;component/buyprocess.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\buyprocess.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

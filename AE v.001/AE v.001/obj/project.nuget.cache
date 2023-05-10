@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UYh+NL+6WDqtk/Sp8DOAebThItkyJpapxdV1tAni94jVWP7QnxSxq3Y67TwbxJ0XzJb5Me7sltvebFIGyXMp0g==",
+  "dgSpecHash": "3pTDEKTYwsgaRdwZpLxyZmz12PWkfcAGAmmN7hmVO9HMe9yOB5gpnmL6APczJFY6kV4ITcbawcoYLdH58ZVW8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\w0nna\\OneDrive\\Документы\\cursovaya2course\\AE v.001\\AE v.001\\AE v.001.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w0nna\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
     "C:\\Users\\w0nna\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
-    "C:\\Users\\w0nna\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\w0nna\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\w0nna\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512"
   ],
   "logs": []
 }
