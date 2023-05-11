@@ -9,5 +9,6 @@
     <Grid>
         <Button Name="buyoficcial1" Margin="0,326,0,76" Click="buyoficcial1_Click">Оплатить наличкой</Button>
         <Button Name="buyoficcial2" Margin="0,374,0,28">Оплатить картой</Button>
+        <Button Name="Получить сдачу" Margin="0,356,0,238">
     </Grid>
 </Window>

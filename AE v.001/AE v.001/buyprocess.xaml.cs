@@ -38,10 +38,10 @@ namespace AE_v._001
                 }
             };
 
-            // Генерируем пиксельные данные QR-кода для заданного текста
+            // Генерируем пиксельные данные Q для заданного текста
             var pixelData = writer.Write(QRCodeText.Text);
 
-            // Преобразуем пиксельные данные в изображение и отображаем его в элементе управления Image
+            //Преобразовываем пиксельные данные для работы с Image
             var bitmapSource = BitmapSource.Create(pixelData.Width, pixelData.Height, 96, 96, PixelFormats.Bgr32, null, pixelData.Pixels, pixelData.Width * 4);
             qrCodeImage.BarcodeImage = bitmapSource;
         }

@@ -28,6 +28,22 @@ namespace AE_v._001
         {
             Window mw = new Window();
             mw.Show();
+            while (mw.IsActive == false)
+            {
+                mw = new Window();
+                mw.Show();
+
+                bool buyprocessArch;
+                if (mw.IsActive == false)
+                    buyprocessArch = true;
+                else
+                    buyprocessArch = false;
+
+
+            }
+            
+             
+         
 
 
         }
