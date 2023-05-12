@@ -6,7 +6,7 @@
         xmlns:zxing="clr-namespace:ZXing;assembly=zxing"
         xmlns:local="clr-namespace:AE_v._001"
         mc:Ignorable="d"
-        Title="buyprocess" Height="450" Width="800">
+        Title="buyprocess" Width="1280" Height="720">
     <Grid>
         
     </Grid>

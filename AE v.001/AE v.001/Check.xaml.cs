@@ -39,7 +39,6 @@ namespace AE_v._001
                 else
                     buyprocessArch = false;
 
-
             }
             
              

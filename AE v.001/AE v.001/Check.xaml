@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AE_v._001"
         mc:Ignorable="d"
-        Title="Check" Height="450" Width="800">
+        Title="Check" Width="1280" Height="720">
     <Grid>
         <Button Name="buyoficcial1" Margin="0,326,0,76" Click="buyoficcial1_Click">Оплатить наличкой</Button>
         <Button Name="buyoficcial2" Margin="0,374,0,28">Оплатить картой</Button>
-        <Button Name="Получить сдачу" Margin="0,356,0,238">
+        <Button Name="buyoficcial3" Margin="0,356,0,238">Получить сдачу</Button>
     </Grid>
 </Window>
