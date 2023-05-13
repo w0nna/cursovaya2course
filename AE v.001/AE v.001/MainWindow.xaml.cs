@@ -22,7 +22,7 @@ namespace AE_v._001
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
     }
 }

@@ -13,6 +13,9 @@
     <Compile Update="Check.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="loadanim.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="loading.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +25,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Check.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="loadanim.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="loading.xaml">

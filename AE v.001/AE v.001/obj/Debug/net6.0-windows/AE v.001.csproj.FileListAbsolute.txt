@@ -6,3 +6,30 @@ C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\ob
 C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001_MarkupCompile.lref
 C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\buyprocess.g.cs
 C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\Check.g.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\loading.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\loadanim.g.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\loading.g.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\AE v.001.exe
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\AE v.001.deps.json
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\AE v.001.runtimeconfig.json
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\AE v.001.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\AE v.001.pdb
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\App.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\buyprocess.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\Check.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\loadanim.baml
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.g.resources
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.AssemblyInfoInputs.cache
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.AssemblyInfo.cs
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.csproj.CoreCompileInputs.cache
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.csproj.CopyComplete
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\refint\AE v.001.dll
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.pdb
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\AE v.001.genruntimeconfig.cache
+C:\Users\w0nna\OneDrive\Документы\cursovaya2course\AE v.001\AE v.001\obj\Debug\net6.0-windows\ref\AE v.001.dll
