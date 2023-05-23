@@ -9,17 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="av.png" />
     <None Remove="mww.png" />
+    <None Remove="ovs.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignColors" Version="2.1.2" />
     <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
     <PackageReference Include="ZXing.Net" Version="0.16.9" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="av.png" />
     <Resource Include="mww.png" />
+    <Resource Include="ovs.png" />
   </ItemGroup>
 
 </Project>

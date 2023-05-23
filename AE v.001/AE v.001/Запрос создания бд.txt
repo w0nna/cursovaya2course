@@ -1,0 +1,55 @@
+CREATE TABLE Users (
+  ID INT PRIMARY KEY,
+  Username VARCHAR(50),
+  VirtualMoney BIT,
+  RealMoney BIT
+);
+
+-- Insert data into "Users" table
+INSERT INTO Users (ID, Username, VirtualMoney, RealMoney)
+VALUES
+  (1, 'All Money', 1, 1),
+  (2, 'No Real', 1, 0),
+  (3, 'No Virtual', 0, 1),
+  (4, 'No Money', 0, 0);
+
+-- Create "VendingMachine" table
+CREATE TABLE VendingMachine (
+  ID INT PRIMARY KEY,
+  ProductAvailability BIT,
+  Coin5Kopeks INT,
+  Coin10Kopeks INT,
+  Coin25Kopeks INT,
+  Coin50Kopeks INT
+);
+
+-- Insert data into "VendingMachine" table
+INSERT INTO VendingMachine (ID, ProductAvailability, Coin5Kopeks, Coin10Kopeks, Coin25Kopeks, Coin50Kopeks)
+VALUES
+  (1, 1, 1, 2, 3, 4),
+  (2, 1, 0, 0, 0, 0),
+  (3, 0, 5, 10, 15, 20),
+  (4, 0, 0, 0, 0, 0);
+
+-- Create "Products" table
+CREATE TABLE Products (
+  ID VARCHAR(10) PRIMARY KEY,
+  Name VARCHAR(50),
+  Price FLOAT
+);
+
+-- Insert data into "Products" table
+INSERT INTO Products (ID, Name, Price)
+VALUES
+  ('A1', 'Шоколадное печенье', 10.50),
+  ('A2', 'Овсяное печенье', 8.75),
+  ('A3', 'Печенье Oreox', 12.25),
+  ('A4', 'Пончик', 10.00),
+  ('B1', 'Snickers', 7.50),
+  ('B2', 'Bounty', 6.25),
+  ('B3', 'MilkyWay', 9.75),
+  ('B4', 'Жевачка', 8.50),
+  ('C1', 'Fanta', 5.50),
+  ('C2', 'Sprite', 4.50),
+  ('C3', 'Coca-Cola', 6.75),
+  ('C4', 'Coca-Cola Zero', 7.25);

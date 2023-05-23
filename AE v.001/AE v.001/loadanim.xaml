@@ -4,8 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AE_v._001"
-        mc:Ignorable="d"
-        Title="loadanim" Height="450" Width="800">
+        mc:Ignorable="d" Height="720" Width="1280" WindowStartupLocation="CenterScreen" Cursor="Wait" Icon="/av.png" ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
             <SolidColorBrush Color="#1E1E1E" />

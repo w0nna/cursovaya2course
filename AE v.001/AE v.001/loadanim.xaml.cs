@@ -31,18 +31,15 @@ namespace AE_v._001
         }
         private void ChangeWindow()
         {
-            //<!-- Увеличить - уменьшить задержку -->
             Thread.Sleep(2000);
-            MainWindow anotherWindow = new MainWindow();
-            anotherWindow.Show();
-            Close(); 
+            MainWindow mmav = new MainWindow();
+            Window lw = Application.Current.MainWindow;
+            lw.Close();
+            mmav.Show();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           
-
-           
             StartAnimation();
         }
 
